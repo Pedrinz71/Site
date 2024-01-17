@@ -59,3 +59,77 @@ section.main{
     }
 
     .nokup img{max-width: 100%;}
+
+    section.marcas{padding:100 0;}
+
+    section.marcas img{
+        width: 20%; 
+    }
+
+    section.porque{
+        padding: 40px 0;
+        background-color: white;
+    }
+
+    section.porque > .center > h2{
+        font-size: 64px;
+        text-align: center;
+        width: 100%;
+    }
+
+    section.porque > .center{
+        max-width: 1280px;
+    }
+    section.porque > .center > p{
+        font-size: 14px;
+        color: #ccc;
+        text-align: center;
+        width: 100%;
+    }
+    .diferenciais{
+        display: flex;
+        margin-top: 50px;
+    }
+
+    .box-dif{
+        box-shadow: 0px 20px 40px #2426721c;
+        width: 31%;
+        margin-right: 2% ;
+        padding: 10px 20px;
+        border-radius: 20px;
+    }
+
+    .box-dif h3{
+        font-size: 28px;
+        color: black;
+        margin: 20px 0px;
+    }
+
+    .box-dif p{
+        font-size: 13px;
+        color: #7e92ac;
+        margin-bottom: 20px;
+    }
+
+    @media screen and (max-width:768px) {
+
+           .box-dif{
+            width: 100%;
+     margin-right: 0px;
+
+    }
+
+    section.marcas{
+        text-align: center;
+    }
+
+    section.marcas img{
+        max-width: 300%;
+        width: 100%;
+        
+    }
+
+    .diferenciais{
+      flex-wrap: wrap;
+    }
+    }
