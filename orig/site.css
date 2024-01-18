@@ -111,6 +111,37 @@ section.main{
         margin-bottom: 20px;
     }
 
+    section.meio{
+       
+        background-image: url('images/banner_meio.svg');
+        background-size: cover;
+        background-position: center;
+        padding: 20px 0px;
+        min-height: 200px;
+        color: white;
+        text-align: center;
+    }
+
+    section.meio h1,section.meio h4{
+        font-weight: normal;
+        margin: 10px 0;
+    }
+
+    section.meio h1{
+        font-size: 30px;
+    }
+
+    section.meio a{
+        display: inline-block;
+        padding: 8px 15px;
+        font-size: 20px;
+        border-radius: 10%;
+        font-weight: bold;
+        background: #FFDD33;
+        text-decoration: none;
+        color: #0F3FD3;;
+    }
+
     @media screen and (max-width:768px) {
 
            .box-dif{
@@ -133,3 +164,5 @@ section.main{
       flex-wrap: wrap;
     }
     }
+
+   
